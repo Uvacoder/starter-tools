@@ -22,7 +22,13 @@ export default function Home() {
                </Card>
                <Card>
                   <Typography.Title level={3}>Decode Asscii</Typography.Title>
-                  <Button type="primary" block>
+                  <Button
+                     type="primary"
+                     block
+                     onClick={() => {
+                        Router.push('/ascii-to-text');
+                     }}
+                  >
                      Go to
                   </Button>
                </Card>
