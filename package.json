@@ -18,6 +18,7 @@
       "react-dom": "^16.13.0",
       "sass-colors": "^1.0.13",
       "scroll-style": "^1.0.0",
+      "slugify": "^1.4.5",
       "styled-components": "^5.0.0",
       "styled-jsx-plugin-sass": "^1.0.0"
    },
