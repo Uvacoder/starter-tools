@@ -15,6 +15,7 @@
       "flexbox-fast": "^1.0.0",
       "less": "^3.12.2",
       "next": "latest",
+      "nprogress": "^0.2.0",
       "react": "^16.13.0",
       "react-dom": "^16.13.0",
       "sass-colors": "^1.0.13",
