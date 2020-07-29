@@ -5,7 +5,7 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "format": "prettier --write ./**/*.{ts,tsx,scss,less}"
+    "format": "prettier --write ./**/*.{ts,tsx,scss,less,json}"
   },
   "dependencies": {
     "antd": "^4.5.1",
@@ -21,6 +21,7 @@
     "styled-jsx-plugin-sass": "^1.0.0"
   },
   "devDependencies": {
+    "@types/classnames": "^2.2.10",
     "@types/node": "12.0.12",
     "@types/react": "16.8.23",
     "@types/react-dom": "16.8.4",
