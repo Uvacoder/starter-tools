@@ -1,11 +1,11 @@
-import { NextPage } from "next";
+import { NextPage } from 'next';
 
 const PageSlugger: NextPage = () => {
-  return (
-    <>
-      <h1>Hola desde la pagina de slugger</h1>
-    </>
-  );
+   return (
+      <>
+         <h1>Hola desde la pagina de slugger</h1>
+      </>
+   );
 };
 
 export default PageSlugger;

@@ -1,3 +1,3 @@
 interface More {
-  [key: string]: any;
+   [key: string]: any;
 }
