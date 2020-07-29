@@ -1,5 +1,6 @@
 import classnames from 'classnames';
 import { FC, useEffect, useState } from 'react';
+import Link from 'next/link';
 
 const Navbar: FC = () => {
    const [scrolled, setScrolled] = useState(false);
@@ -26,7 +27,11 @@ const Navbar: FC = () => {
       >
          <div className="container-lg fx fx-jcsb fx-aic">
             <div className="brand">
-               <h1>MyTools</h1>
+               <Link href="/">
+                  <a>
+                     <h1 style={{ margin: '0' }}>MyTools</h1>
+                  </a>
+               </Link>
             </div>
          </div>
          <style jsx>{`
@@ -38,6 +43,8 @@ const Navbar: FC = () => {
                left: 0;
                width: 100%;
                z-index: 1000;
+               box-shadow: -2px 0 30px -10px rgba(0, 0, 0, 0.2);
+
                * {
                   transition: all 0.2s ease-in-out;
                }
