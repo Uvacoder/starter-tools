@@ -1,40 +1,40 @@
 {
-  "name": "with-typescript-styled-components",
-  "version": "1.0.0",
-  "scripts": {
-    "dev": "next",
-    "build": "next build",
-    "start": "next start",
-    "format": "prettier --write ./**/*.{ts,tsx,scss,less,json}"
-  },
-  "dependencies": {
-    "antd": "^4.5.1",
-    "bootstrap-container": "^1.0.0",
-    "flexbox-fast": "^1.0.0",
-    "less": "^3.12.2",
-    "next": "latest",
-    "react": "^16.13.0",
-    "react-dom": "^16.13.0",
-    "sass-colors": "^1.0.13",
-    "scroll-style": "^1.0.0",
-    "styled-components": "^5.0.0",
-    "styled-jsx-plugin-sass": "^1.0.0"
-  },
-  "devDependencies": {
-    "@types/classnames": "^2.2.10",
-    "@types/node": "12.0.12",
-    "@types/react": "16.8.23",
-    "@types/react-dom": "16.8.4",
-    "@types/styled-components": "5.0.1",
-    "@zeit/next-less": "^1.0.1",
-    "babel-plugin-styled-components": "^1.10.0",
-    "less-vars-to-js": "^1.3.0",
-    "next-compose-plugins": "^2.2.0",
-    "node-sass": "^4.14.1",
-    "prettier": "^2.0.5",
-    "prettier-plugin-organize-imports": "^1.1.1",
-    "prettier-plugin-packagejson": "^2.2.5",
-    "typescript": "3.5.2"
-  },
-  "license": "ISC"
+   "name": "with-typescript-styled-components",
+   "version": "1.0.0",
+   "license": "ISC",
+   "scripts": {
+      "build": "next build",
+      "dev": "next",
+      "format": "prettier --write ./**/*.{ts,tsx,scss,less,json}",
+      "start": "next start"
+   },
+   "dependencies": {
+      "antd": "^4.5.1",
+      "bootstrap-container": "^1.0.0",
+      "flexbox-fast": "^1.0.0",
+      "less": "^3.12.2",
+      "next": "latest",
+      "react": "^16.13.0",
+      "react-dom": "^16.13.0",
+      "sass-colors": "^1.0.13",
+      "scroll-style": "^1.0.0",
+      "styled-components": "^5.0.0",
+      "styled-jsx-plugin-sass": "^1.0.0"
+   },
+   "devDependencies": {
+      "@types/classnames": "^2.2.10",
+      "@types/node": "12.0.12",
+      "@types/react": "16.8.23",
+      "@types/react-dom": "16.8.4",
+      "@types/styled-components": "5.0.1",
+      "@zeit/next-less": "^1.0.1",
+      "babel-plugin-styled-components": "^1.10.0",
+      "less-vars-to-js": "^1.3.0",
+      "next-compose-plugins": "^2.2.0",
+      "node-sass": "^4.14.1",
+      "prettier": "^2.0.5",
+      "prettier-plugin-organize-imports": "^1.1.1",
+      "prettier-plugin-packagejson": "^2.2.5",
+      "typescript": "3.5.2"
+   }
 }
