@@ -7,10 +7,16 @@
     "start": "next start"
   },
   "dependencies": {
+    "antd": "^4.5.1",
+    "bootstrap-container": "^1.0.0",
+    "flexbox-fast": "^1.0.0",
     "next": "latest",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
-    "styled-components": "^5.0.0"
+    "sass-colors": "^1.0.13",
+    "scroll-style": "^1.0.0",
+    "styled-components": "^5.0.0",
+    "styled-jsx-plugin-sass": "^1.0.0"
   },
   "devDependencies": {
     "@types/node": "12.0.12",
@@ -18,6 +24,7 @@
     "@types/react-dom": "16.8.4",
     "@types/styled-components": "5.0.1",
     "babel-plugin-styled-components": "^1.10.0",
+    "node-sass": "^4.14.1",
     "typescript": "3.5.2"
   },
   "license": "ISC"
