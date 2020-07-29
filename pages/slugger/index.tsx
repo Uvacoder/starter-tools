@@ -2,7 +2,7 @@ import { NextPage } from 'next';
 import Navbar from '../../components/navbar';
 import Form, { useForm } from 'antd/lib/form/Form';
 import FormItem from 'antd/lib/form/FormItem';
-import { Button, message, Space } from 'antd';
+import { Button, message, Space, Typography } from 'antd';
 import TextArea from 'antd/lib/input/TextArea';
 import slugify from 'slugify';
 import Copy from '../../utils/copy.util';
@@ -29,6 +29,10 @@ const PageSlugger: NextPage = () => {
       <>
          <Navbar />
          <div className="container-lg">
+            <Typography.Title style={{ textAlign: 'center' }}>
+               Slugger
+            </Typography.Title>
+
             <div className="content">
                <div>
                   <h2>Input</h2>
