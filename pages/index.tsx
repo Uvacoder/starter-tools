@@ -1,6 +1,6 @@
-import Navbar from '../components/navbar';
-import { Card, Typography, Button } from 'antd';
+import { Button, Card, Typography } from 'antd';
 import Router from 'next/router';
+import Navbar from '../components/navbar';
 
 export default function Home() {
    return (
@@ -30,6 +30,18 @@ export default function Home() {
                      }}
                   >
                      Go to
+                  </Button>
+               </Card>
+               <Card>
+                  <Typography.Title level={3}>Tag Extractor</Typography.Title>
+                  <Button
+                     type="primary"
+                     block
+                     onClick={() => {
+                        Router.push('/tag-extractor');
+                     }}
+                  >
+                     Got o
                   </Button>
                </Card>
             </div>
