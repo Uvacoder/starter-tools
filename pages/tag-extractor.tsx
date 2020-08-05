@@ -1,14 +1,23 @@
-import { Button, Space, Typography } from 'antd';
+import { Button, message, Space, Typography } from 'antd';
 import Form, { useForm } from 'antd/lib/form/Form';
 import FormItem from 'antd/lib/form/FormItem';
 import TextArea from 'antd/lib/input/TextArea';
 import React from 'react';
 import Navbar from '../components/navbar';
+import { tagExtractor } from '../lib/tag-extractor';
+import Copy from '../utils/copy.util';
 
 export default function () {
    const [second] = useForm();
    const [form] = useForm();
-   const onExtractor = (data: More) => {};
+   const onExtractor = (data: More) => {
+      const _data = tagExtractor(data.text, undefined, 4).join(',');
+      second.setFieldsValue({
+         text: _data,
+      });
+      Copy(_data);
+      message.success('Copied !');
+   };
 
    return (
       <>
